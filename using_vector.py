@@ -15,7 +15,8 @@ print(v.times_scalar(c))
 print(v.normalized())
 
 v = Vector([-0.221, 7.437])
-print(v.magnitude())
+print("magnitude:", v.magnitude())
+print("square magnitude:", v.square_magnitude())
 
 v = Vector([8.813, -1.331, -6.247])
 print(v.magnitude())
